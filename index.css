@@ -155,9 +155,9 @@ body {
 }
 
 
-section {
+/* section {
   border-bottom: var(--border-light);
-}
+} */
 
 img {
   object-fit: contain;
@@ -649,6 +649,10 @@ body:not(.user-is-tabbing) a:focus {
 }
 .projects>div{
   cursor: pointer;
+  
+}
+.projects>div:hover{
+  box-shadow: 1px 1px rgba(255, 255, 255, 0.781), 0 0 20px 5px rgb(255, 255, 255), inset 2px 2px #D3FFEC;
 }
 .hMGSRy {
   display: flex;
@@ -710,6 +714,10 @@ body:not(.user-is-tabbing) a:focus {
   color: rgb(52, 58, 64);
   margin: 2.5rem 3rem 1rem 0.5rem;
 }
+.jtIpxz .icon:hover{
+  /* border-radius: 50%; */
+  box-shadow: 1px 1px rgba(255, 255, 255, 0.781), 0 0 20px 5px rgb(255, 255, 255), inset 2px 2px #D3FFEC;
+}
 @media (max-width: 768px){
   .projects{
     grid-template-columns: 1fr
@@ -762,6 +770,18 @@ body:not(.user-is-tabbing) a:focus {
   vertical-align: -30px;
   margin: 15px;
   height: 4rem;
+
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+ 
+}
+.footer__social-image:hover{
+  animation-name: bounce;
 }
 
 
@@ -782,5 +802,22 @@ body:not(.user-is-tabbing) a:focus {
     margin: 5px;
    }
 }
+@media (max-width: 410px){
+.footer__social-image {
+    vertical-align: -13px;
+    margin: 30px;
+}
+}
 
+@keyframes bounce {
+	0%, 100%, 20%, 50%, 80%  {
 
+		transform:  translateY(0)
+	}
+	40% {
+		transform:  translateY(-30px)
+	}
+	60% {
+		transform:translateY(-15px)
+	}
+}
