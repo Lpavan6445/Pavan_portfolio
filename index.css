@@ -652,7 +652,7 @@ body:not(.user-is-tabbing) a:focus {
   
 }
 .projects>div:hover{
-  box-shadow: 1px 1px rgba(255, 255, 255, 0.781), 0 0 20px 5px rgb(255, 255, 255), inset 2px 2px #D3FFEC;
+  box-shadow: 1px 1px rgba(255, 255, 255, 0.781), 0 0 20px 5px rgb(255, 255, 255), inset 2px 2px #ffffff;
 }
 .hMGSRy {
   display: flex;
