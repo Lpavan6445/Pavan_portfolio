@@ -716,7 +716,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 .jtIpxz .icon:hover{
   /* border-radius: 50%; */
-  box-shadow: 1px 1px rgba(255, 255, 255, 0.781), 0 0 20px 5px rgb(255, 255, 255), inset 2px 2px #D3FFEC;
+  box-shadow: 1px 1px rgba(255, 255, 255, 0.781), 0 0 20px 5px rgb(255, 255, 255), inset 2px 2px #fafafa;
 }
 @media (max-width: 768px){
   .projects{
