@@ -609,11 +609,13 @@ body:not(.user-is-tabbing) a:focus {
   
   .about__text {
     flex: 0 0 55%;
+    margin-bottom: var(--gutter-normal);
   }
 
   .about__photo-container {
     flex: 1;
     margin: 0 var(--gutter-huge) 0 0;
+    margin-bottom: var(--gutter-normal);
   }
 }
 @media (min-width: 700px){
