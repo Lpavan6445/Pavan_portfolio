@@ -550,7 +550,7 @@ transition-duration: 1.5s;
 
 .client__logos {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
   /* overflow-x:hidden; */
   /* filter: invert(100%) grayscale(100%) opacity(0.8); */
@@ -595,10 +595,12 @@ transition-duration: 1.5s;
       margin: 20px;
     }
   }
-
-  .client__logo:not(:last-of-type) {
-    margin-right: var(--gutter-medium);
+  .client__logos>div:nth-child(4){
+    margin: 5rem;
   }
+  /* .client__logo:not(:last-of-type) {
+    margin-right: var(--gutter-medium);
+  } */
 
 
 /* --------------------------------------- */
