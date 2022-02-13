@@ -594,10 +594,11 @@ transition-duration: 1.5s;
     .client__logos>div{
       margin: 20px;
     }
+    .client__logos>div:nth-child(4){
+      margin: 5rem;
+    }
   }
-  .client__logos>div:nth-child(4){
-    margin: 5rem;
-  }
+
   /* .client__logo:not(:last-of-type) {
     margin-right: var(--gutter-medium);
   } */
