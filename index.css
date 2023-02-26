@@ -683,6 +683,17 @@ transition-duration: 1.5s;
   font-family: Montserrat, sans-serif;
   max-width: var(--container-max-width);
 }
+#techStack {
+  font-weight: 700;
+  font-family: monospace;
+  color: rgb(0, 0, 0);
+  padding: 0 2rem 1.5rem;
+}
+
+.project_thumbnail {
+  padding: 8px;
+}
+
 .projects>div{
   cursor: pointer;
   
@@ -783,10 +794,7 @@ transition-duration: 1.5s;
   }
 }
 
-
-/* --------------------------------------- */
-
-
+/* ---------------------------------------
 
 /* --------------------------------------- */
 /* ----- Contact ----- */
@@ -817,7 +825,9 @@ transition-duration: 1.5s;
   animation-name: bounce;
 }
 
-
+.projectBottomDetails {
+  overflow: hidden;
+}
 
 @media (max-width: 886px){
   .client2,.work{
