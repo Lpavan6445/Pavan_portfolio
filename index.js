@@ -94,6 +94,8 @@ MY_PROJECTS.forEach(({
   project_desc, 
   tech_stack,
   thumbnail,
+  git_hub_link,
+  live_link,
 }) => {
   innerHtml += `
   <div data-aos="fade-up"data-aos-anchor-placement="bottom-bottom" class="sc-iqHYmW hMGSRy aos-init aos-animate">
