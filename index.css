@@ -560,8 +560,9 @@ transition-duration: 1.5s;
 }
 
 .client__logo{
-  height: 8.5rem;
-  max-width: 80rem;
+  height: 50px;
+  width: 50px;
+  object-fit: scale-down;
 }
 
 @media (max-width: 1240px) {
