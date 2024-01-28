@@ -539,7 +539,7 @@ transition-duration: 1.5s;
 /* --------------------------------------- */
 /* ----- Skills ----- */
 /* --------------------------------------- */
-#clients{
+#skills{
   height: 100vh;
   padding-top: 5.5rem;
 }
@@ -552,30 +552,34 @@ transition-duration: 1.5s;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  /* overflow-x:hidden; */
-  /* filter: invert(100%) grayscale(100%) opacity(0.8); */
+  gap: 2rem;
 }
-.client__logos>div>p{
-  text-align: center;
+
+.skillWrapper {
+  min-width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .client__logo{
-  height: 50px;
-  width: 50px;
+  height: 65px;
+  width: 65px;
   object-fit: scale-down;
 }
 
 @media (max-width: 1240px) {
-  #clients{
+  #skills{
     /* padding-top: 30rem; */
     height: 95vh;
   }
-  .client__logos>div{
+  /* .client__logos>div{
     margin: 20px;
-  }
+    min-width: 100px
+  } */
 }
   @media (max-width: 800px) {
-    #clients{
+    #skills{
       margin-top: 30rem;
       height: 95vh;
     }
@@ -588,16 +592,16 @@ transition-duration: 1.5s;
     }
   }
   @media (max-width: 500px) {
-    #clients{
+    #skills{
       /* margin-top: 30rem; */
        height: auto;
     }
-    .client__logos>div{
+    /* .client__logos>div{
       margin: 20px;
-    }
-    .client__logos>div:nth-child(4){
+    } */
+    /* .client__logos>div:nth-child(4){
       margin: 5rem;
-    }
+    } */
   }
 
   /* .client__logo:not(:last-of-type) {
@@ -656,7 +660,7 @@ transition-duration: 1.5s;
   .about{
     height: auto;
   }
-  #clients{
+  #skills{
     height: auto;
   }
 }
