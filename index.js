@@ -49,7 +49,7 @@ const MY_PROJECTS = [
     tech_stack : 'ReactJs | Django | Javascript | PostGreSql | Django REST | Material ui',
     git_hub_link : 'https://github.com/Lpavan6445/SharePurse-FE',
     live_link : 'https://share-purse-fe.vercel.app/',
-    thumbnail : './images/sharePurse.png'
+    thumbnail : './images/sharePurseProject.png'
   },
   {
       title : 'Cult.Fit clone',
