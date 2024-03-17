@@ -46,10 +46,10 @@ const MY_PROJECTS = [
   {
     title : 'SharePurse',
     project_desc : 'A user-friendly platform for collaborative expense sharing and financial insights.',
-    tech_stack : 'ReactJs | Django | Javascript | PostGresSql | Rest frame work | Material ui',
-    git_hub_link : 'https://github.com/Lpavan6445/Cult.fit-clone',
-    live_link : 'https://cult-fit-clone-w13.herokuapp.com/',
-    thumbnail : './images/cultfitImage.png'
+    tech_stack : 'ReactJs | Django | Javascript | PostGreSql | Django REST | Material ui',
+    git_hub_link : 'https://github.com/Lpavan6445/SharePurse-FE',
+    live_link : 'https://share-purse-fe.vercel.app/',
+    thumbnail : './images/sharePurse.png'
   },
   {
       title : 'Cult.Fit clone',
