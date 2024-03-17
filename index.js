@@ -44,6 +44,14 @@ window.addEventListener("scroll", () => {
 
 const MY_PROJECTS = [
   {
+    title : 'SharePurse',
+    project_desc : 'A user-friendly platform for collaborative expense sharing and financial insights.',
+    tech_stack : 'ReactJs | Django | Javascript | PostGresSql | Rest frame work | Material ui',
+    git_hub_link : 'https://github.com/Lpavan6445/Cult.fit-clone',
+    live_link : 'https://cult-fit-clone-w13.herokuapp.com/',
+    thumbnail : './images/cultfitImage.png'
+  },
+  {
       title : 'Cult.Fit clone',
       project_desc : 'CultFit is a health and fitness company offering digital and offline experiences across fitness, nutrition, and mental well-being',
       tech_stack : 'JAVASCRIPT | NODEJS | EXPRESS | MONGODB | HTML | CSS',
@@ -52,7 +60,7 @@ const MY_PROJECTS = [
       thumbnail : './images/cultfitImage.png'
   },
   {
-      title : 'BookMyShow',
+      title : 'BookMyShow clone',
       project_desc : "BookMyShow is India's largest entertainment ticketing website. In this app user can book movie tickets by choosing the different theatres and timings accordingly.",
       tech_stack : 'REACT | REDUX | EXPRESS | JAVASCRIPT | MONGODB',
       git_hub_link : 'https://github.com/Lpavan6445/BookMyShow-Clone',
