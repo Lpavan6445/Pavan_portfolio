@@ -60,7 +60,7 @@ const MY_PROJECTS = [
       thumbnail : './images/cultfitImage.png'
   },
   {
-      title : 'BookMyShow clone',
+      title : 'BookMyShow',
       project_desc : "BookMyShow is India's largest entertainment ticketing website. In this app user can book movie tickets by choosing the different theatres and timings accordingly.",
       tech_stack : 'REACT | REDUX | EXPRESS | JAVASCRIPT | MONGODB',
       git_hub_link : 'https://github.com/Lpavan6445/BookMyShow-Clone',
